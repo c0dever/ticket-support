@@ -19,6 +19,7 @@ class TicketSupportServiceProvider extends PackageServiceProvider
             ->name('ticket-support')
             ->hasConfigFile()
             ->hasViews()
+            ->hasRoute('api')
             ->hasMigration('create_ticket-support_table')
             ->hasCommand(TicketSupportCommand::class);
     }
