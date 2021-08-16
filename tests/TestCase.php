@@ -2,9 +2,9 @@
 
 namespace Codever\TicketSupport\Tests;
 
+use Codever\TicketSupport\TicketSupportServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Codever\TicketSupport\TicketSupportServiceProvider;
 
 class TestCase extends Orchestra
 {
