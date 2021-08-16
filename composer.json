@@ -1,22 +1,22 @@
 {
-    "name": "vendor_slug/package_slug",
-    "description": ":package_description",
+    "name": "c0dever/ticket-support",
+    "description": "This is my package TicketSupport",
     "keywords": [
-        ":vendor_name",
+        "c0dever",
         "laravel",
-        "package_slug"
+        "ticket-support"
     ],
-    "homepage": "https://github.com/vendor_slug/package_slug",
+    "homepage": "https://github.com/c0dever/ticket-support",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "codever",
+            "email": "codeverguys@gmail.com",
             "role": "Developer"
         }
     ],
     "require": {
-        "php": "^8.0",
+        "php": "^7.4",
         "spatie/laravel-package-tools": "^1.4.3",
         "illuminate/contracts": "^8.37"
     },
@@ -30,13 +30,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "Codever\\TicketSupport\\": "src",
+            "Codever\\TicketSupport\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "Codever\\TicketSupport\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -50,10 +50,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Codever\\TicketSupport\\TicketSupportServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\SkeletonFacade"
+                "TicketSupport": "Codever\\TicketSupport\\TicketSupportFacade"
             }
         }
     },
