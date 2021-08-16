@@ -1,6 +1,6 @@
 <?php
 
-namespace VendorName\Skeleton\Tests;
+namespace Codever\TicketSupport\Tests;
 
 class ExampleTest extends TestCase
 {
