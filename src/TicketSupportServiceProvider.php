@@ -2,9 +2,9 @@
 
 namespace Codever\TicketSupport;
 
+use Codever\TicketSupport\Commands\TicketSupportCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Codever\TicketSupport\Commands\TicketSupportCommand;
 
 class TicketSupportServiceProvider extends PackageServiceProvider
 {
